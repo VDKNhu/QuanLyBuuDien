@@ -1,0 +1,68 @@
+
+.scroll_tbody_y
+{
+    display: block;
+    overflow-y: scroll;
+}
+
+.table_body{
+    height: 40vh;
+}
+.table_DSTL{
+    height: 20vh;
+}
+
+#resultSearchBook{
+    border-collapse: collapse;
+    width: 100%;
+}
+#resultSearchBook td, #resultSearchBook th{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+#resultSearchBook td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#resultSearchBook tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#resultSearchBook tr:hover{
+    background-color: #ddd;
+}
+#resultSearchBook th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.baocao .formMain{
+    font-size: 16px;
+}
+.baocaoTable th, .baocaoTable td{
+    font-size: 18px;
+}
+.baocaoHeader{
+    display: flex;
+    text-align: center;
+}
+.sachmoinhap{
+    margin-top: 30px;
+}
+.bookLoan{
+    margin-top: 20px;
+}
+/* chinh sua danh sach sach  */
+#NhieuTG{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 10px;
+}
+#themTacGia{
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+}

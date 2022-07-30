@@ -1,0 +1,16 @@
+.themadmin{
+    width: 30vw;
+}
+.danhsachadmin{
+    width: 45vw;
+}
+.divposition{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3vw;
+}
+#container{
+    padding: 0;
+    line-height: normal;
+    background-color: white;
+}

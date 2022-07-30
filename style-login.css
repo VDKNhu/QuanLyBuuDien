@@ -1,0 +1,147 @@
+.navbar{
+    margin-top: 10vh;
+}
+form{
+    position: relative;
+    border: 3px solid #f1f1f1;
+    width: 500px;
+    padding: 0 10px 10px 10px;
+    margin: auto;
+}
+.container{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+input[type=checkbox]{
+    margin-top: 15px;
+}
+input[type=radio]{
+    margin-left: 50px;
+}
+input[type=text], input[type=number], input[type=password], input[type=email], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.8;
+}
+.cancel{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.imgContainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.accountLogo{
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+@media screen and (max-width:300px) {
+    .forgotpd{
+        display: block;
+        float: none;
+    }
+    .cancel{
+        width: 100%;
+    }
+}
+.iconClose{
+    position: absolute;
+    width: auto;
+    right: 0;
+    top: 0;
+    color: black;
+    font-size: 30px;
+    margin: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
+button, input{
+    border-radius: 5px;
+}
+button[type=submit]{
+    font-size: 18px;
+    letter-spacing: 0.15rem;
+}
+.foodter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #ceb3b3;
+    padding: 20px 0;
+}
+.foodter a{
+    font-size: 18px;
+    letter-spacing: 0.15rem;
+}
+.register:hover, .forgotpd:hover{
+    color: #f44336;
+}
+
+/* register */
+::placeholder{
+    font-size: 18px;
+}
+.foodter span{
+    font-size: 18px;
+    color: #cec9c9;
+}
+.navbar form h1{
+    padding: 10px 0 30px 0;
+}
+.container button{
+    font-size: 18px;
+    letter-spacing: 0.15rem;
+}
+.foodter span a:hover{
+    color: rgb(219, 130, 95);
+}
+/* thong tin subper admin  */
+.thongtinsuperadmin{
+    line-height: 2;
+}
+#divMain{
+    width: 500px;
+}
+#divMain button{
+    width: 200px;
+    color: black;
+    background-color: rgb(244, 245, 250);
+}
+#divMain button:hover{
+    color: red;
+    cursor: pointer;
+}
+.formsuatk{
+    width: 400px;
+}
+
+#btnLuuTT button{
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+}
+

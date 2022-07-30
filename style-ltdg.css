@@ -1,0 +1,200 @@
+/* lập thẻ độc giả  */
+
+.formMain{
+    margin-top: 20px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(244, 245, 250);
+    line-height: 2.5;
+    /* position: relative; */
+}
+#themsach{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-gap: 6%;
+}
+#themdocgia{
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    grid-gap: 10%;
+}
+ .csssach{
+    display: flex;
+    justify-content: space-between;
+}
+.selectKindReader{
+    padding: 8px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 0.15rem;
+}
+#tacgia{
+    padding: 8px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 0.15rem;
+}
+.navcontain{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+input, button{
+    padding: 8px 20px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+input[type=email], input[name=address]{
+    /* text-transform: capitalize; */
+    width: 98%;
+}
+input[name=username]{
+    margin-left: 10px;
+}
+input[type=checkbox]{
+    margin-top: 15px;
+}
+input[type=radio]{
+    margin-left: 50px;
+}
+form .selectKindReader{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 0.15rem;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+
+}
+button:hover{
+    opacity: 0.8;
+}
+
+/* nhập thông tin sách  */
+input[name=trigia]{
+    margin-left: 0;
+}
+input[name=tensach]{
+    width: 50%;
+    margin-left: 12.5%;
+}
+input[name=birthday]{
+    width: 60%;
+    margin-bottom: 60px;
+}
+ #themsach input{
+    width: 55%;
+}
+ select{
+    margin: 5px 0;
+}
+#themsach .slsach{
+    margin-top: 60px;
+}
+#themsach a{
+    margin-left: -40px;
+}
+#themsach a:hover{
+    color: blue;
+}
+select[name=theloai]{
+    padding: 8px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 0.15rem;
+    width: 100%;
+}
+.plusinput{
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tacgia{
+    width: 85%;
+}
+.plusinput i{
+    margin-left: 5px;
+}
+
+/* search sach */
+input[name=querytext]{
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+    margin: 0;
+    background-color: white;
+}
+
+.cssbaocao{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10%;
+}
+.cssbaocao input{
+    margin: 0;
+    width: 50%;
+}
+.navcss{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+.cssinput{
+    width: 60%;
+}
+.navbarM i{
+    margin-left: 5px;
+}
+.jsbtnM{
+    margin-left: 5px;
+
+}
+.action{
+    display: none;
+    transition: all 0.3s linear;
+
+}
+.suaTTDG input{
+    width: 60%;
+}
+
+.Flex{
+    display: flex;
+    justify-content: end;
+    grid-gap: 5%;
+    align-items: center;
+}
+.Width input[type=text]{
+    width: 100%;
+}
+.Flex input[type=date]{
+    width: 85%;
+}
+/* thong bao  */
+.thongbaosachmoi .btn{
+    justify-content: space-between;
+}
+.thongbaosachmoi .btn button{
+    margin-right: 0;
+}

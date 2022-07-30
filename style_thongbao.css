@@ -1,0 +1,177 @@
+.thongbaosachmoi{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.TBthemmoi{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.theDGcontent{
+    text-align: center;
+}
+.TBcontent h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(96, 96, 124);
+}
+.TBcontent form{
+    margin-top: 20px;
+}
+.TBcontent{
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: rgb(244, 245, 250);
+}
+.TBthanhcong .TBthemmoi{
+    height: 30%;
+}
+.TBthanhcong .TBcontent{
+    height: 90%;
+}
+.TBthanhcong .TBcontent{
+    text-align: center;
+}
+.TBcontent h1{
+    margin: 20px 0 30px 0;
+}
+.btnthemmoi button{
+    margin-right: 0;
+}
+.TGmoi:hover, .Smoi:hover{
+    cursor: pointer;
+}
+.trolai{
+    position: absolute;
+    top: 56.5%;
+}
+.lapphieumuonsach{
+    text-align: start;
+    line-height: 2;
+}
+.action{
+    display: none;
+}
+.headerphieuMS{
+    border-bottom:1px solid #ccc;
+}
+.headerPhieutra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headerPhieutra div{
+    border-left: 2px solid #ddd;
+    padding-left: 5px;
+}
+.TrasachThutien{
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+.TrasachThutien p:hover{
+    cursor: pointer;
+    color: red;
+}
+.divktimthay{
+    width: 30%;
+}
+.divktimthay h2{
+    border: none;
+    padding-top: 10px;
+}
+.thongbaoBC{
+    position: fixed;
+    background-color: rgba(0,0,0,0.1);
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.divkhongco{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+#tatTB{
+    width: auto;
+}
+.TBTDTTDN .btn{
+    justify-content: center;
+}
+.thongbaosachmoi i{
+    font-size: 30px;
+    position: absolute;
+    right: 37vw;
+}
+.thongbaothaydoi h2{
+    border-bottom: 1px solid rgb(96, 96, 124);
+}
+.thongbaosachmoi h2{
+    margin-top: 30px;
+}
+.thongbaothaydoi .csssach{
+    margin-top: 20px;
+    align-items: center;
+}
+.thongbaothaydoi .btn{
+    display: flex;
+    justify-content: center;
+}
+.thongbaoxacnhan .btn{
+    display: flex;
+    justify-content: center;
+
+}
+.thongbaothaydoi .csssach{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.thongbaothaydoi .csssach input{
+    margin: 0;
+}
+.thongbaothaydoi .csssach #tacgia{
+    width: 100%;
+}
+.divsuatacgia button, .divsuatheloai button{
+    width: 120px;
+}
+#xoaTL, #xoaTG{
+    margin-left: 22.5vw;
+}
+ #TLcanxoa{
+    width: 200px;
+}
+.Noidung{
+    margin-top: 30px ;
+}
+.btntrangchu{
+    margin-right: 30pxx;
+}
+.superadminsuaTKadmin{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.thongbaobitrung .btn, .thongbaoDoiTTTKTC .btn{
+    display: flex;
+    justify-content: center;
+}
+table button{
+    margin: 0;
+    /* background-color: rgb(244, 245, 250); */
+}
+.action{
+    display: none;
+}

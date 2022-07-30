@@ -1,0 +1,378 @@
+.option{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.optionContent{
+    width: 80vw;
+    margin: 10px auto;
+    height: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+.optionSelect{
+    width: 20vw;
+    height: 70vh;
+    /* position: fixed; */
+}
+.optionDetail{
+    width: 58vw;
+    min-height: 70vh;
+}
+.optionDetail form{
+    height: 90%;
+}
+.list:focus{
+    background-color: #457aec;
+}
+.divContent h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(96, 96, 124);
+}
+h3{
+    margin: 10px 0 10px 20px;
+}
+.container{
+    height: 90%;
+    padding: 10px 20px;
+    line-height: 3;
+    background-color: rgb(244, 245, 250);
+}
+.container div{
+    align-items: center;
+
+}
+.KhacContent{
+    height: 100%;
+}
+.properties{
+    display: flex;
+    grid-template-columns: auto 1fr auto;
+}
+.properties span{
+    color: black;
+
+}
+/* readers */
+.DSdocgiamoi{
+    display: flex;
+    align-items: flex-start;
+}
+textarea{
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.detailchinhsua{
+    border: 2px solid #ccc;
+    padding: 0 20px 10px 20px;
+}
+.btndocgia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+/* optiont select */
+.selectContainer{
+    margin-top: 10px;
+}
+.selectContainer ul{
+    line-height: 2;
+}
+.selectContainer ul li{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.list:hover{
+    background-color: rgb(231, 243, 247);
+}
+.list:focus{
+    background-color: rgb(2, 2, 20);
+}
+.pen:hover{
+    color: blue;
+    cursor: pointer;
+}
+.pen i{
+    font-size: 10px;
+}
+/* thay đổi quy định */
+.optionContent{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+input{
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.title{
+    margin-bottom: 10px;
+}
+
+.bar{
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    grid-gap: 20px;
+}
+.cssoption .bar input{
+    width: 300px;
+}
+.cssoption .bar p{
+    width: 200px;
+}
+.cssoption .bar button{
+    margin-right: 0;
+}
+
+.btn{
+    display: grid;
+    justify-content: end;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-top: 1px solid #ccc;
+}
+button{
+    cursor: pointer;
+}
+.save{
+    padding: 5px 15px;
+    background-color: rgb(75, 148, 245);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.save:hover{
+    opacity: 0.9;
+}
+.title .button{
+    background-color: rgb(164, 247, 55);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+.bottom{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.action{
+    display: none;
+}
+/* lap bao cao  */
+.chung:focus{
+    background-color: black;
+}
+
+.btnhidden{
+    /* background-color: Transparent;
+    color: black; */
+    margin-right: 0;
+    width: none;
+}
+.lapphieuthutienphat{
+    margin-top: 15px;
+    line-height: 2;
+    text-align: start;
+}
+/* css xóa thông tin */
+.csswidth{
+    width: 47.5%;
+}
+.csswidth input{
+    width: 60%;
+}
+.TGcss{
+    display: grid;
+    width: 100%;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 5fr;
+}
+.TGcss .navcss{
+    height: 100%;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 5%;
+}
+.TGcss .navcss input{
+    width: 310px;
+}
+.Tendausach input{
+    width: 81%;
+}
+/* xem thong tin sach  */
+.main{
+    min-height: 55.5vh;
+}
+.total{
+    margin: 10px 0;
+}
+.Main{
+    width: 80w;
+    margin: 70px auto;
+    height: 100%;
+}
+.quydinh_{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* #themsachmoi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3vw;
+}
+#ThemMotSach{
+    width: 50vw;
+}
+#Import{
+    width: 27vw;
+} */
+/* thong tin doc gia  */
+.suathongtin{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 100%;
+}
+.thongtintaikhoan .container{
+    display: grid;
+    grid-template-columns: 3.2fr auto;
+}
+.thongtintk{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.thehethan{
+    display: flex;
+}
+.thehethan button{
+    color: black;
+}
+/* sua thong tin doc gia  */
+.btnsuaTTDG{
+    display: flex;
+    justify-content: space-between;
+}
+.btnsuaTTDG button{
+    color: white;
+    margin-right: 0;
+}
+.maDG{
+    display: flex;
+    align-items: center;
+}
+.maDG h3{
+    margin: 0 30px;
+}
+.thongtinthedocgia h2{
+    margin-top: 30px;
+}
+.thongtinthedocgia .csssach{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.thongtinthedocgia input{
+    margin-left: 0;
+}
+#ngaysinh{
+    margin-bottom: 0;
+}
+/* super admin  */
+.themadmin .divthongtin{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.GiahanThe button{
+    color: black;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: inherit;
+}
+
+.divthongtinmuontraDG{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80vw;
+}
+.divthongtinmuontraDG .divthongtinDG{
+    width: 30vw;
+}
+.divthongtinmuontraDG .divthongtinMT{
+    width: 45vw;
+} 
+.thongtinthecu .bodyTT{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.thongtinthecu .bodyTT .title{
+    width: 10vw;
+}
+.thongtinthecu .bodyTT .thongtin{
+    width: 50vw;
+}
+.loan{
+    height: 80vh;
+    /* position: fixed; */
+    left: 70vw;
+}
+.importsach{
+    width: 38vw;
+
+}
+.formthaydoi{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.thaydoi{
+    width: 39vw;
+}
+.thaydoi button{
+    margin:0 0 0 0;
+    width:80px;
+}
+.thaydoi .xoa{
+    background-color: rgb(243, 47, 47);
+}
+.thaydoi .sua{
+    background-color: rgb(255, 208, 0);
+}
+.theloaidocgia{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+
+}
+.danhsachtheloaidocgia{
+    width: 37vw;
+}
+.thaydoitheloaidocgia{
+    width: 39vw;
+}
+#tableloaidocgia td{
+    padding: 0;
+    text-align: center;
+}
+#btnQuaylai{
+    width: 130px;
+    height: 40px;
+    background-color: #4caf50;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+#DanhsachTheloai:hover, #DanhsachTacgia:hover{
+    cursor: pointer;
+    color: #457aec;
+}
+.action{
+    display: none;
+}
